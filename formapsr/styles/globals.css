@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap');
+
+html,
+body {
+  padding: 0 !important;
+  margin: 0 !important;
+  background-color: rgb(163, 221, 236) !important;
+  min-height: 100vh !important;
+}
+
+.loader {
+  z-index: 2000;
+}
+
+* {
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.login-container {
+  height: 100vh;
+  background-color: rgb(163, 221, 236);
+}
+
+.center-div {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.bgcolors1 {
+  background-color: rgb(163, 221, 236);
+}
+
+.bgcolors2 {
+  background-color: rgb(255, 255, 255);
+}
+
+.shadow {
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+
+
+/* .loader */
